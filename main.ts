@@ -1,0 +1,11 @@
+input.onButtonPressed(Button.A, function () {
+    turtle.setPosition(0, 4)
+    turtle.pen(TurtlePenMode.Down)
+    turtle.forward(4)
+    turtle.turnRight()
+    turtle.forward(4)
+    turtle.turnRight()
+    turtle.forward(4)
+    turtle.turnRight()
+    turtle.forward(4)
+})
